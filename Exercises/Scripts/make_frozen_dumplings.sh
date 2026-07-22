@@ -1,13 +1,13 @@
 #!/bin/bash
-#SBATCH --account=def-siddiqi                                               
-#SBATCH --time=00:10:00                                                     
-#SBATCH --mem=5G                                                            
+#SBATCH --account=def-youraccountname                               # CHANGE                                             
+#SBATCH --time=00:05:00                                                     
+#SBATCH --mem=1G                                                            
 
-#SBATCH --chdir=/home/meganng/projects/def-siddiqi/meganng/IntroToHighPerformanceComputing/      
+#SBATCH --chdir=/your/path/to/IntroToHighPerformanceComputing/      # CHANGE
 #SBATCH --output=Outputs/Logs/dumplings_%j.out  
 #SBATCH --error=Outputs/Logs/dumplings_%j.err                            
 
-#SBATCH --mail-user=megan.ng@mail.mcgill.ca                                 
+#SBATCH --mail-user=youremail@mail.mcgill.ca                        # CHANGE 
 #SBATCH --mail-type=ALL                                                     
 
 # Define all paths
