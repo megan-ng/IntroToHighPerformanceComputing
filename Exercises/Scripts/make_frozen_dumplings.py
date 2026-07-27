@@ -1,5 +1,6 @@
 from pathlib import Path
 import sys
+import time
 
 def make_frozen_dumplings(input_file, output_folder, n_bags=3):
     """
@@ -59,9 +60,12 @@ if __name__ == "__main__":
 
     # print the input file name to the console for debugging purposes
     print(f"Working on {input_file.name}...")
-    
+
     # Eat ~4GB of memory to simulate a memory-intensive task
     _ = bytearray(4 * 1024**3)
+
+    # Hang for 2 minutes to simulate a long-running task
+    time.sleep(120)
 
     make_frozen_dumplings(
         input_file=input_file,
