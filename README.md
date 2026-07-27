@@ -6,7 +6,7 @@ This workshop is designed to give you practical experience using the high-perfor
 ## Requirements
 ### Knowledge
 * A basic understanding of what a computer program or script is, including how to run a script and how programs use input files to produce output files
-* Familarity with editting code with a code editor (ex. [VS Code](https://code.visualstudio.com/))
+* Familarity with editing code with a code editor (ex. [VS Code](https://code.visualstudio.com/))
 
 
 ### Accounts and Software
