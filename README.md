@@ -10,10 +10,8 @@ This workshop is designed to give you practical experience using the high-perfor
 
 
 ### Accounts and Software
-* [Digital Research Alliance of Canada account](https://ccdb.alliancecan.ca/security/login) and access to one of their general-purpose clusters (Fir, Narval, Nibi, or Rorqual)
-* Terminal
-    * Mac OS and any linux distribution will have a terminal already
-    * Windows users must download their own terminal (ex. [unix subsystem (WSL)](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview)) 
+* A terminal (typically pre-installed on your laptop)
+* [Digital Research Alliance of Canada account](https://ccdb.alliancecan.ca/security/login), login information (username and password), and access to one of their general-purpose clusters (Fir, Narval, Nibi, or Rorqual)
 * [Duo Mobile](https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app#download-duo-mobile) application downloaded on your phone
 * [Globus Connect Personal](https://www.globus.org/globus-connect-personal) downloaded on your laptop
 * A code editor (ex. [VS Code](https://code.visualstudio.com/))
